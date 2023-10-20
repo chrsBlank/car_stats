@@ -1,16 +1,25 @@
 # car_stats
 
-A new Flutter project.
 
-## Getting Started
+App that logs the following:
+- odometer value
+- price per liter
+- total paid
+  to calculate the following:
+  - average consumption (l/100km)
+  - amount of km till next fill
+  and plots:
+    - consumption / date
+    - odometer values
 
-This project is a starting point for a Flutter application.
+RoadMap:
+- car service log
+- car specific logging (depending on manufacturer specs, how ofter should you look out for oil/coolant and parts *as notifications*)
+- multiple cars
+- OCR support for auto value logging
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- online sync support
+
+Right now everything happens on device, later there will be an online (server backend) option to sync and view your stats even on your PC/Laptop/Tablet. Completly offline mode will not go away.
